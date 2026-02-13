@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+            background-color: #fafafa;
+        }
+
+        .navbar {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .nav-items {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-items li {
+            font-size: 15px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .nav-items li:hover {
+            color: #00baf2;
+        }
+
+        .navbar h2 {
+            font-size: 20px;
+            color: #00baf2;
+            font-weight: bold;
+        }
+
+        .navbar button {
+            padding: 10px 20px;
+            background-color: #00baf2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .navbar button:hover {
+            background-color: #0099c1;
+        }
+
+        .download {
+            text-align: left;
+            padding: 40px 20px;
+            background-color: #f5f9ff;
+        }
+
+        .download h3 {
+            padding-top: 15px;
+        }
+
+        .download-btn {
+            margin-top: 15px;
+            border-radius: 35px;
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            font-size: 12px;
+        }
+
+        .services {
+            background-color: #00baf2;
+            padding: 40px 20px;
+
+        }
+
+        .services h3 {
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .services .items {
+            background-color: white;
+            font-size: 12px;
+            text-align: center;
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .upi {
+            text-align: left;
+            margin-top: 20px;
+            padding: 20px 20px;
+        }
+
+        .upi h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .upi h4 {
+            font-size: 15px;
+            margin-top: 20px;
+
+        }
+
+        .cashback {
+            background-color: rgb(25, 25, 109);
+            padding: 40px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .cashback h1 {
+            font-size: 24px;
+            padding-bottom: 20px;
+        }
+
+        .cashback p {
+            font-size: 12px;
+        }
+        .footer {
+            background-color: white;
+            color: rgb(0, 0, 0);
+            padding: 40px 20px;
+        }
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            border-bottom: 1px solid gainsboro;
+        }
+        .footer-top h4 {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .footer-top ul {
+            list-style-type: none;
+            padding-bottom: 10px;
+            font-size: 10px;
+            color: grey;
+        }
+        .footer-top ul li {
+            padding-bottom: 5px;
+        }
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 35px;
+        }   
+        .footer-bottom h4{
+            margin-bottom: 10px;
+            color: grey;
+            font-size: 10px;
+        }
+        .footer-bottom span {
+            font-size: 13px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2>Paytm</h2>
+        <ul class="nav-items">
+            <li>Consumers</li>
+            <li>Business</li>
+            <li>Company</li>
+            <li>Careers</li>
+        </ul>
+        <button>Login</button>
+    </nav>
+    <section class="download">
+        <h1>India's Most Loved Payment App</h1>
+        <h3>Recharge , Pay bills , Send Money and more. </h3>
+        <button class="download-btn">Download Paytm App</button>
+
+    </section>
+    <section class="services">
+        <h3>Recharge & Pay Bills</h3>
+        <div class="grid">
+            <div class="items">📱 <br>Mobile</div>
+            <div class="items">📺 <br>DTH</div>
+            <div class="items">💡 <br>Electricity</div>
+            <div class="items">⛽ <br>Gas</div>
+            <div class="items">🏠 <br>Rent</div>
+        </div>
+    </section>
+    <section class="upi">
+        <h2>Paytm UPI</h2>
+        <h4>Instant, secure & fast payments directly from your bank. </h4>
+    </section>
+    <section class="cashback">
+        <h1>Unlimited Cashback & Offers</h1>
+        <p>Pay with paytm get exciting awards every time.</p>
+    </section>
+    <section class="footer">
+        <div class="footer-top">
+            <div class="col">
+                <h4>Paytm</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Career</li>
+                    <li>Blogs</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Services</h4>
+                <ul>
+                    <li>Recharge</li>
+                    <li>UPI</li>
+                    <li>Wallet</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Support</h4>
+                <ul>
+                    <li>Help Center</li>
+                    <li>FAQ</li>
+                    <li>Security</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Paytm</h4>
+                <ul>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy & Policy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h4>&copy 2026 Paytm Clone All rights reserved.</h4>
+            <span>🌏 🐦‍🔥</span>
+        </div>
+    </section>
+</body>
+
+</html>
